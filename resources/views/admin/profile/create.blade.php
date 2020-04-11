@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+
+@extends('layouts.profile')
+
+@section('title', 'プロフィール')
+
+@section('content')
 <html>
     <head>
         <meta charset="utf-8">
@@ -11,3 +17,4 @@
         <h1>profile_create画面</h1>
     </body>
 </html>
+@endsection
